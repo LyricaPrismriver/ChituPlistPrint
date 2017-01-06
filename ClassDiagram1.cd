@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChituPlistPrint.Objs.Equipment">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ChituPlistPrint.Objs.Equipment.BuffValuesItem">
+        <TypeIdentifier>
+          <NewMemberFileName>Objs\Equipment.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ChituPlistPrint.Objs.Equipment.BuffListItem">
+        <TypeIdentifier>
+          <NewMemberFileName>Objs\Equipment.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ChituPlistPrint.Objs.Equipment.Buff">
+        <TypeIdentifier>
+          <NewMemberFileName>Objs\Equipment.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ChituPlistPrint.Objs.Equipment.TriggerListItem">
+        <TypeIdentifier>
+          <NewMemberFileName>Objs\Equipment.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAQACIAAQAICAoIABAgAEBAAUBAYgAIUDAgCBABAM=</HashCode>
+      <FileName>Objs\Equipment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

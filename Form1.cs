@@ -31,8 +31,8 @@ namespace ChituPlistPrint
         public Form1()
         {
             InitializeComponent();
-            textBox1.Text = Environment.CurrentDirectory + "\\plist\\";
-            textBox2.Text = Environment.CurrentDirectory + "\\plist\\";
+            textBox1.Text = Environment.CurrentDirectory + @"\plist\";
+            textBox2.Text = Environment.CurrentDirectory + @"\plist\";
         }
         ///<summary>
         ///选择读取plist的文件夹
@@ -177,6 +177,7 @@ namespace ChituPlistPrint
             }
             //存文件
             new XmlUtil().SaveFolder(content, textBox2.Text, ConfigurationSettings.AppSettings["filename"]);
+            content = "";
         }
         ///<summary>
         ///初始化
@@ -203,7 +204,8 @@ namespace ChituPlistPrint
         private void button5_Click(object sender, EventArgs e)
         {
             //插入格式化标识符
-            textBox3.Text += "{" + comboBox2.Text + "}";
+            //textBox3.Text += "{" + comboBox2.Text + "}";
+            textBox3.SelectedText = "{" + comboBox2.Text + "}";
         }
         ///<summary>
         ///'文件'下拉栏标志改变动作
